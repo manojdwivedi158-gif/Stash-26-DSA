@@ -1,13 +1,3 @@
-
-
-//  enter your number:4
-
-//        * 
-//      * * *
-//    * * * * *
-//   * * * * * * *
-
-
 #include<iostream>
 using namespace std;
 int main(){
@@ -19,9 +9,9 @@ int main(){
             cout<<" ";
         }
         for(int j=1;j<=i*2-1;j++){
-            cout<<"*";
-        }
-         cout<<endl;
+            cout<<j;
     }
-    
+ cout<<endl;
+
+}
 }
